@@ -1,11 +1,11 @@
-
-
-
 body{
     zoom: 0.8;
 overflow-x: hidden;
 background: #F7F7F7;
+}
 
+.body-tomato-all{
+background: #feefef;
 }
 
 .phon{
@@ -66,12 +66,36 @@ outline: none;
 border-bottom: 1px solid black;
 }
 
+.poisk2{
+    position: absolute;
+width: 300px;
+height: 29px;
+left: 1165px;
+top: 20px;
+background-color: rgba(250, 128, 114, 0);
+border-top: none;
+border-right: none;
+border-left: none;
+outline: none;
+border-bottom: 1px solid black;
+}
+
+
+
 .lupa{
     position: absolute;
 width: 18px;
 height: 18px;
 left: 1450px;
 top: 24px;
+}
+
+.lupa2{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1450px;
+    top: 24px;
 }
 
 
@@ -628,27 +652,22 @@ font-weight: 400;
 font-size: 16px;
 line-height: 142.7%;
 }
-
 .nav-down a{
     text-decoration: none;
     margin-right: 45px;
     color: white;
 }
-
 .ikonki-footer{
 position: absolute;
 width: 220.2px;
 height: 31.2px;
 left: 1303px;
 top: 23px;
-
 }
-
 .ikonki-footer a{
     text-decoration: none;
     margin-right: 8px;
 }
-
 .footer2{
 position: absolute;
 width: 1920px;
@@ -657,7 +676,6 @@ left: 0px;
 top: 3025px;
 background: #324950;
 }
-
 .footer-text{
 position: absolute;
 width: 295px;
@@ -670,12 +688,711 @@ font-weight: 400;
 font-size: 14px;
 line-height: 142.7%;
 color: #B9B9B9;
+}
+.tomatoall-main{
+    position: absolute;
+    width: 1920px;
+    height: 480px;
+    left: 0px;
+    top: 122px;
 
+
+}
+.tomato-nav{
+    position: absolute;
+    width: 1920px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+}
+.logo2 > img{
+    width: 166px;
+    height: 83px;
+}
+.logo2{
+    position: absolute;
+    width: 166px;
+    height: 83px;
+    left: 394px;
+    top: 20px;
+    mix-blend-mode: darken;
+}
+
+.navig-tomat{
+    position: absolute;
+    width: 499px;
+    height: 26px;
+    left: 1016px;
+    top: 74px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #324950;
+}
+
+.navig-tomat a{
+    text-decoration: none;
+    margin-right: 6px;
+    color: black;
+    
+}
+
+.h1-tomato{  
+position: absolute;
+width: 827px;
+height: 63px;
+left: 405px;
+top: 653px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 142.7%;
+color: #324950;
+}
+
+.xrest4{
+position: absolute;
+width: 47.24px;
+height: 6.24px;
+left: 405px;
+top: 756px;
+}
+
+.tomato-opis{
+position: absolute;
+width: 1097px;
+height: 290px;
+left: 405px;
+top: 803px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.line4{
+position: absolute;
+width: 4px;
+height: 60px;
+left: 405.5px;
+top: 1113.5px;
+background: #EB5757;
+border-radius: 4px;
+}
+
+.tomato-line{
+position: absolute;
+width: 1036px;
+height: 54px;
+left: 435.5px;
+top: 1116.5px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.tomato-opis2{
+position: absolute;
+width: 1152px;
+height: 449.5px;
+left: 385px;
+top: 1203.5px;
+background: #FFFAFA;
+}
+
+.tomato-opis-one{
+position: absolute;
+width: 350px;
+height: 299.5px;
+left: 20px;
+top: 50px;
+}
+
+.tomato-opis-one-text1{
+position: absolute;
+width: 350px;
+height: 58px;
+left: 0px;
+top: 0px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #324950;
+}
+
+.tomato-opis-line1{
+position: absolute;
+width: 350px;
+height: 0px;
+left: 0px;
+top: 73px;
+border: 1px solid #324950;
+}
+
+.tomato-opis-one-text2{
+position: absolute;
+width: 350px;
+height: 212px;
+left: 0px;
+top: 87.5px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.tomato-opis-two{
+position: absolute;
+width: 350px;
+height: 299.5px;
+left: 400px;
+top: 50px;
+}
+
+.tomato-opis-two-text1{
+    position: absolute;
+width: 325px;
+height: 58px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #324950;
+}
+
+.tomato-opis-line2{
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    top: 73px;
+    border: 1px solid #324950;
+}
+
+.tomato-opis-two-text2{
+    position: absolute;
+    width: 350px;
+    height: 212px;
+    top: 87.5px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 150%;
+    color: #324950;
+}
+
+.tomato-opis-thr{
+    position: absolute;
+    width: 350px;
+    height: 349.5px;
+    left: 780px;
+    top: 50px;
+}
+
+.tomato-opis-thr-text1{
+    position: absolute;
+    width: 296.21px;
+    height: 58px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    color: #324950;
+}
+
+.tomato-opis-line3{
+position: absolute;
+width: 350px;
+height: 0px;
+top: 73px;
+border: 1px solid #324950;
+}
+
+.tomato-opis-thr-text2{
+    position: absolute;
+    width: 350px;
+    height: 262px;
+    top: 87.5px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 150%;
+    color: #324950;
+}
+
+.line5{
+    position: absolute;
+width: 4px;
+height: 40px;
+left: 405px;
+top: 1693px;
+background: #EB5757;
+border-radius: 4px;
+}
+
+.tomato-line2{
+position: absolute;
+width: 647px;
+height: 26px;
+left: 435px;
+top: 1700px;
+margin-top: 0px;
+margin-bottom: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 150%;
+color: #324950;
+}
+
+.tomato-tovar-1{
+    position: absolute;
+width: 350px;
+height: 321px;
+left: 405px;
+top: 1773px;
+}
+
+.tomato-1tov-text{
+    position: absolute;
+width: 350px;
+height: 69px;
+top: 252px;
+background: #FFFFFF;
+}
+
+.tomato-1tov-caption{
+position: absolute;
+width: 314px;
+height: 51px;
+top: 9px;
+left: 18px;
+margin-bottom: 0px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+text-align: center;
+color: #57984C;
+}
+
+.tomato-1tov-caption2{
+position: absolute;
+width: 314px;
+height: 51px;
+left: 18px;
+top: 40px;
+margin-bottom: 0px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 142.7%;
+text-align: center;
+color: #57984C; 
+}
+
+.tomato-tovar-2{
+    position: absolute;
+    width: 351px;
+    height: 321px;
+    left: 785px;
+    top: 1773px;
+}
+
+.tomato-2tov-text{
+position: absolute;
+width: 350px;
+height: 69px;
+left: 0px;
+top: 252px;
+background: #FFFFFF;
 }
 
 
+.tomato-2tov-caption{
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    top: 9px;
+    left: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    text-align: center;
+    color: #57984C;
+    }
 
 
 
+.tomato-2tov-caption2{
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    left: 18px;
+    top: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 142.7%;
+    text-align: center;
+    color: #57984C; 
+    }
+
+.tomato-tovar-3{
+position: absolute;
+width: 350px;
+height: 321px;
+left: 1165px;
+top: 1773px;
+
+}
+.tomato-3tov-text{
+position: absolute;
+width: 350px;
+height: 69px;
+left: 0px;
+top:252px;
+background: #FFFFFF;
+}
+
+.tomato-3tov-caption{
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    top: 9px;
+    left: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    text-align: center;
+    color: #57984C;
+    }
 
 
+
+.tomato-3tov-caption2{
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    left: 18px;
+    top: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 142.7%;
+    text-align: center;
+    color: #57984C; 
+    }
+
+    .tomato-tovar-4{
+        position: absolute;
+    width: 350px;
+    height: 321px;
+    left: 405px;
+    top: 2124px;
+    }
+    
+    .tomato-4tov-text{
+        position: absolute;
+    width: 350px;
+    height: 69px;
+    top: 252px;
+    background: #FFFFFF;
+    }
+    
+    .tomato-4tov-caption{
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    top: 9px;
+    left: 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 142.7%;
+    text-align: center;
+    color: #57984C;
+    }
+    
+    .tomato-4tov-caption2{
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    left: 18px;
+    top: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 142.7%;
+    text-align: center;
+    color: #57984C; 
+    }
+    
+    .tomato-tovar-5{
+        position: absolute;
+        width: 351px;
+        height: 321px;
+        left: 785px;
+        top: 2124px;
+    }
+    
+    .tomato-5tov-text{
+    position: absolute;
+    width: 350px;
+    height: 69px;
+    left: 0px;
+    top: 252px;
+    background: #FFFFFF;
+    }
+    
+    
+    .tomato-5tov-caption{
+        position: absolute;
+        width: 314px;
+        height: 51px;
+        top: 9px;
+        left: 18px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 142.7%;
+        text-align: center;
+        color: #57984C;
+        }
+    
+    
+    
+    .tomato-5tov-caption2{
+        position: absolute;
+        width: 314px;
+        height: 51px;
+        left: 18px;
+        top: 40px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 142.7%;
+        text-align: center;
+        color: #57984C; 
+        }
+    
+    .tomato-tovar-6{
+    position: absolute;
+    width: 350px;
+    height: 321px;
+    left: 1165px;
+    top: 2124px;
+    
+    }
+    .tomato-6tov-text{
+    position: absolute;
+    width: 350px;
+    height: 69px;
+    left: 0px;
+    top:252px;
+    background: #FFFFFF;
+    }
+    
+    .tomato-6tov-caption{
+        position: absolute;
+        width: 314px;
+        height: 51px;
+        top: 9px;
+        left: 18px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 142.7%;
+        text-align: center;
+        color: #57984C;
+        }
+    
+    
+    
+    .tomato-6tov-caption2{
+        position: absolute;
+        width: 314px;
+        height: 51px;
+        left: 18px;
+        top: 40px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 142.7%;
+        text-align: center;
+        color: #57984C; 
+        }
+
+        .tomato-tovar-7{
+            position: absolute;
+        width: 350px;
+        height: 321px;
+        left: 405px;
+        top: 2475px;
+        }
+        
+        .tomato-7tov-text{
+            position: absolute;
+        width: 350px;
+        height: 69px;
+        top: 252px;
+        background: #FFFFFF;
+        }
+        
+        .tomato-7tov-caption{
+        position: absolute;
+        width: 314px;
+        height: 51px;
+        top: 9px;
+        left: 18px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 142.7%;
+        text-align: center;
+        color: #57984C;
+        }
+        
+        .tomato-7tov-caption2{
+        position: absolute;
+        width: 314px;
+        height: 51px;
+        left: 18px;
+        top: 40px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 142.7%;
+        text-align: center;
+        color: #57984C; 
+        }
+        
+        .tomato-tovar-8{
+            position: absolute;
+            width: 351px;
+            height: 321px;
+            left: 785px;
+            top: 2475px;
+        }
+        
+        .tomato-8tov-text{
+        position: absolute;
+        width: 350px;
+        height: 69px;
+        left: 0px;
+        top: 252px;
+        background: #FFFFFF;
+        }
+        
+        
+        .tomato-8tov-caption{
+            position: absolute;
+            width: 314px;
+            height: 51px;
+            top: 9px;
+            left: 18px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 142.7%;
+            text-align: center;
+            color: #57984C;
+            }
+        
+        
+        
+        .tomato-8tov-caption2{
+            position: absolute;
+            width: 314px;
+            height: 51px;
+            left: 18px;
+            top: 40px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 142.7%;
+            text-align: center;
+            color: #57984C; 
+            }
+
+.footer-tomato-all{
+    position: absolute;
+width: 1920px;
+height: 127px;
+left: 0px;
+top: -100px;
+}
