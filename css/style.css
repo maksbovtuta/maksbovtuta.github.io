@@ -978,6 +978,9 @@ height: 321px;
 left: 405px;
 top: 1773px;
 }
+.tomato-tovar-1:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
 
 .tomato-1tov-text{
     position: absolute;
@@ -1027,6 +1030,10 @@ color: #57984C;
     height: 321px;
     left: 785px;
     top: 1773px;
+}
+
+.tomato-tovar-2:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 
 .tomato-2tov-text{
@@ -1081,8 +1088,12 @@ width: 350px;
 height: 321px;
 left: 1165px;
 top: 1773px;
-
 }
+
+.tomato-tovar-3:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
 .tomato-3tov-text{
 position: absolute;
 width: 350px;
@@ -1135,6 +1146,10 @@ background: #FFFFFF;
     left: 405px;
     top: 2124px;
     }
+
+    .tomato-tovar-4:hover{
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    }
     
     .tomato-4tov-text{
         position: absolute;
@@ -1184,6 +1199,10 @@ background: #FFFFFF;
         height: 321px;
         left: 785px;
         top: 2124px;
+    }
+
+    .tomato-tovar-5:hover{
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
     }
     
     .tomato-5tov-text{
@@ -1238,7 +1257,9 @@ background: #FFFFFF;
     height: 321px;
     left: 1165px;
     top: 2124px;
-    
+    }
+    .tomato-tovar-6:hover{
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
     }
     .tomato-6tov-text{
     position: absolute;
@@ -1292,6 +1313,9 @@ background: #FFFFFF;
         left: 405px;
         top: 2475px;
         }
+        .tomato-tovar-7:hover{
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        }
         
         .tomato-7tov-text{
             position: absolute;
@@ -1341,6 +1365,9 @@ background: #FFFFFF;
             height: 321px;
             left: 785px;
             top: 2475px;
+        }
+        .tomato-tovar-8:hover{
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
         }
         
         .tomato-8tov-text{
@@ -1396,3 +1423,458 @@ height: 127px;
 left: 0px;
 top: -100px;
 }
+
+/*Третья страница*/
+
+.tomato-union{
+position: absolute;
+width: 1448.11px;
+height: 1332.05px;
+left: 235.88px;
+top: 66.87px;
+opacity: 0.8;
+}
+
+.return-to-all-tomatos{
+    position: absolute;
+width: 185px;
+height: 23px;
+left: 405px;
+top: 140px;
+}
+
+.arrow{
+position: absolute;
+left: 0px;
+top: 6px;
+}
+
+.text-return{
+ position: absolute;
+width: 146px;
+height: 23px;
+left: 39px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 162.7%;
+color: #57984C;
+}
+
+.img-tomato{
+    position: absolute;
+width: 540px;
+height: 498px;
+left: 975px;
+top: 182px;
+}
+
+.text-tomato3{
+position: absolute;
+width: 526px;
+height: 277.24px;
+left: 405px;
+top: 182px;
+}
+
+.xrest5{
+ 
+position: absolute;
+width: 47.24px;
+height: 6.24px;
+top: 270.59px; 
+}
+
+.ptext1{
+    position: absolute;
+    width: 526px;
+    height: 231px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 142.7%;
+    color: #324950;
+}
+
+.ptext2{
+position: absolute;
+width: 526px;
+height: 231px;
+top: 77px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 142.7%;
+color: #57984C;
+}
+
+.ptext3{
+position: absolute;
+width: 526px;
+height: 231px;
+top: 154px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 142.7%;
+color: #57984C;
+}
+
+.Very-very{
+position: absolute;
+width: 498px;
+height: 86px;
+left: 405px;
+top: 501px;
+}
+
+.img-tomato-very{ 
+position: absolute;
+top: 3px;
+}
+
+.ptext4{
+    position: absolute;
+width: 395px;
+height: 86px;
+left: 103px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 142.7%;
+color: #CF2333;
+}
+
+.spisok1{
+    position: absolute;
+width: 495px;
+height: 149px;
+left: 405px;
+top: 627px;
+}
+
+.spisok1-text1{
+    position: absolute;
+width: 188px;
+height: 29px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #57984C;
+}
+
+.line6{
+    position: absolute;
+width: 183px;
+height: 0px;
+top: 41px;
+
+/* Buttons */
+
+border: 1px solid #57984C;
+}
+
+.spisok1-text2{
+    position: absolute;
+width: 495px;
+height: 84px;
+top: 65px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 162.7%;
+color: #324950;
+}
+
+.spisok2{
+    position: absolute;
+width: 400px;
+height: 167px;
+left: 405px;
+top: 806px;
+}
+
+.spisok2-text1{
+position: absolute;
+width: 56px;
+height: 29px;
+margin-top: 0px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+/* identical to box height, or 29px */
+
+
+/* Buttons */
+
+color: #57984C;
+}
+
+.line7{
+    position: absolute;
+width: 183px;
+height: 0px;
+top: 41px;
+
+/* Buttons */
+
+border: 1px solid #57984C;
+}
+
+.spisok2-ul span{
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+color: #324950;
+padding-left: 5px;
+
+}
+
+.spisok2-ul{
+    position: absolute;
+    width: 400px;
+    height: 102px;
+    top: 65px;
+    margin-top: 0px;
+    color: green;
+    left: -25px;
+ 
+    
+}
+
+.spisok3{
+    position: absolute;
+    width: 357px;
+    height: 167px;
+    left: 405px;
+    top: 1003px;
+    
+}
+
+.spisok3-text1{
+position: absolute;
+width: 56px;
+height: 29px;
+margin-top: 0px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+/* identical to box height, or 29px */
+
+
+/* Buttons */
+
+color: #57984C;
+}
+
+.line8{
+    position: absolute;
+width: 183px;
+height: 0px;
+top: 41px;
+
+/* Buttons */
+
+border: 1px solid #57984C;
+}
+
+.spisok3-ul span{
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+color: #324950;
+padding-left: 5px;
+
+}
+
+.spisok3-ul{
+    position: absolute;
+    width: 400px;
+    height: 102px;
+    top: 65px;
+    margin-top: 0px;
+    color: green;
+    left: -25px;
+ 
+    
+}
+
+.spisok4{
+    position: absolute;
+width: 183px;
+height: 167px;
+left: 975px;
+top: 806px;
+    
+}
+
+.spisok4-text1{
+position: absolute;
+width: 56px;
+height: 29px;
+margin-top: 0px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+/* identical to box height, or 29px */
+
+
+/* Buttons */
+
+color: #57984C;
+}
+
+.line9{
+    position: absolute;
+width: 183px;
+height: 0px;
+top: 41px;
+
+/* Buttons */
+
+border: 1px solid #57984C;
+}
+
+.spisok4-ul span{
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+color: #324950;
+padding-left: 5px;
+
+}
+
+.spisok4-ul{
+    position: absolute;
+    width: 400px;
+    height: 102px;
+    top: 65px;
+    margin-top: 0px;
+    color: green;
+    left: -25px;
+ 
+    
+}
+
+.spisok5{
+    position: absolute;
+width: 183px;
+height: 99px;
+left: 975px;
+top: 1003px;
+}
+
+.spisok5-text1{
+    position: absolute;
+width: 188px;
+height: 29px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+color: #57984C;
+}
+
+.line10{
+    position: absolute;
+width: 183px;
+height: 0px;
+top: 41px;
+
+/* Buttons */
+
+border: 1px solid #57984C;
+}
+
+.spisok5-text2{
+    position: absolute;
+width: 495px;
+height: 84px;
+top: 65px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 162.7%;
+color: #324950;
+}
+
+
+.footer-tomato-one{
+    position: absolute;
+width: 1920px;
+height: 127px;
+left: 0px;
+top: -1638px;
+
+}
+
+.tomato-pdf{
+box-sizing: border-box;
+position: absolute;
+width: 225px;
+height: 55px;
+left: 1290px;
+top: 710px;
+background: #FFFFFF;
+border: 2px solid #57984C;
+border-radius: 60px;
+}
+
+.pdf-text{
+    position: absolute;
+width: 120px;
+height: 34px;
+left: 76.59px;
+top: 8px;
+margin-top: 0px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 200%;
+color: #57984C;
+}
+
+.ico-pdf{
+    position: absolute;
+width: 27.59px;
+height: 32px;
+left: 29px;
+top: 8px;
+}
+
+
