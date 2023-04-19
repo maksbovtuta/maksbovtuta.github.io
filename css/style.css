@@ -1,0 +1,886 @@
+
+
+body{
+
+overflow-x: hidden;
+background: #F7F7F7;
+margin: 0;
+}
+
+.burger-menu{
+    width: 50px;
+    height: 50px;
+    display: none;
+
+}
+.bg-ra{
+    height: 850px;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    margin-top: 15px;
+    width: 226px;
+    height: 113px;
+    left: 388px;
+    top: 20px;
+}
+
+.menu_flex{
+    display: flex;
+    justify-content: space-around;
+}
+.menu input{
+    outline: none;
+    border: none;
+    background-color: #ffffff00;
+}
+.menu{
+    margin-top: 15px;
+}
+.search{
+    margin: 0 auto;
+    width: fit-content;
+    
+    border-bottom: 1px solid #324950;
+}
+#menu{  
+    margin-top: 30px;
+    gap: 10px;
+    width: fit-content;
+    height: 26px;
+    top: 91px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #324950;
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+}
+.menu a{
+    color: #324950;
+    text-decoration: none;
+}
+.logo_placeholder{
+    margin: 0 auto;
+    width: 100%;
+    height: 68px;
+    top: 220px;
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 142.7%;
+/* or 68px */
+
+text-align: center;
+
+color: #735440;
+}
+.menu_content{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0 31px 16px 31px;
+    gap: 10px;
+    margin-top:175px;
+}
+.menu_content button{
+    margin-top: 76px;
+    text-transform: uppercase;
+    padding: 16px 31px;
+    background: #57984C;
+    color: #fff;
+    border: none;
+    width: 160px;
+    height: 55px;
+}
+
+.product{
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 190px;
+    width: 100%;
+    display: flex;
+}
+
+.product img{
+    margin-bottom: 20px;
+}
+
+.product figure{
+    text-align: center;
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 142.7%;
+/* identical to box height, or 29px */
+
+
+/* Text color */
+
+color: #324950;
+}
+
+.first-content{
+    padding: 71px 0 100px 0;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    
+}
+
+.search{
+    padding-top: 30px;
+}
+
+.vision{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-vision{
+    width: 33.75em;
+    height: 31.125em;
+}
+
+.bg p{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 162.7%;
+/* or 33px */
+
+
+/* Text color */
+
+color: #324950;
+
+}
+
+.vision-first{
+    width: 495px;
+}
+
+.bg h1{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 142.7%;
+/* or 91px */
+
+
+/* Text color */
+
+color: #324950;
+}
+
+.vision2{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vision-second p{
+    width: 495px;
+}
+
+.image-mision{
+    width: 33.75em;
+    height: 31.125em;
+}
+
+.Main-activ{
+    background-color: #EDEDED; 
+    text-align: center;
+    padding-top: 70px;
+}
+
+.Main-activ h1{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 142.7%;
+/* or 91px */
+
+
+/* Text color */
+
+color: #324950;
+}
+
+.main-activ-first{
+    padding-bottom:91px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-activ-first figure{
+    text-align: center;
+}
+
+.main-activ-first figcaption{
+    color: green;
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 142.7%;
+/* or 34px */
+
+
+/* Buttons */
+
+color: #57984C;
+
+}
+
+.main-activ-first hr{
+    width:183px;
+    color: green; 
+}
+
+.main-activ-first p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.figure-1, .figure-2{
+    color: #324950;
+    width: 243px;
+    margin: 0 auto;
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 142.7%;
+/* or 26px */
+
+text-align: center;
+
+/* Text color */
+
+color: #324950;
+}
+.figure-3{
+    color: #324950;
+    width: 342px; 
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 142.7%;
+/* or 26px */
+
+text-align: center;
+
+/* Text color */
+
+color: #324950;
+}
+
+.text-border{
+    padding: 0 26px;
+    border-left: 4px solid #EB5757;
+    border-radius: 3px;
+    margin-bottom: 33px;
+}
+
+.text-border p{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* or 26px */
+
+
+/* Text color */
+
+color: #324950;
+
+}
+
+.tomato-sort{
+    gap: 30px;
+    padding: 0 22px;
+    align-items: center;
+    height: 449.5px;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+
+.tomato-sort hr{
+    border-color: #324950;
+}
+
+.tomato-sort h5{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 142.7%;
+
+/* or 29px */
+
+
+/* Text color */
+
+color: #324950;
+}
+
+#h5-sort1{
+    margin-bottom: 0;
+}
+
+.tomato-sort p{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+
+/* or 26px */
+
+
+/* Text color */
+
+color: #324950;
+}
+    
+
+
+
+
+
+/*2 старцниа
+23
+123
+123
+2132
+1321
+321
+321
+3
+213
+13
+213
+21
+321
+312
+321
+312 */
+.body-tomato-all{
+    background: #feefef;
+
+}
+    
+
+.menu-tomato{
+    margin-top: 15px;
+}
+
+.tomatoall-main img{
+    width: 100%;
+    height: 300px;
+}
+
+.nav-tomatik{
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    
+        
+
+}
+
+.menu-nav-tomato-all{
+    color: #324950;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.search{
+    margin: 0 auto;
+    padding-top: 0;
+    width: fit-content;
+    border-bottom: 1px solid #324950;
+}
+
+.search input{
+    border: none;
+}
+
+.menu-nav-tomato-all a{
+    color: #324950;
+    text-decoration: none;
+    margin-right: 5px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+}
+
+.main-tomato-all{
+    background: #FCF0F0;
+    padding: 50px 200px;
+}
+
+.main-tomato-all h1{
+    font-size: 2.5rem;
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+line-height: 142.7%;
+/* identical to box height, or 63px */
+
+
+/* Text color */
+
+color: #324950;
+}
+
+.p-tomato-all-fitst{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 150%;
+/* or 26px */
+
+
+/* Text color */
+
+color: #324950;
+}
+
+.text-border-second{
+    padding: 0 26px;
+    border-left: 4px solid #EB5757;
+    border-radius: 3px;
+    margin: 47px 0;
+}
+
+.text-border-second p{
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 150%;
+/* identical to box height, or 26px */
+
+
+/* Text color */
+
+color: #324950;
+
+}
+
+.tovar-tomato figure{
+    overflow-y: hidden;
+    width: 350px;
+    height: 310px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.tovar-tomato{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    column-gap: 30px;
+}
+
+.tovar-tomato p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tovar-tomato a{
+    text-decoration: none;
+}
+
+
+
+#tomatos-1{
+    margin-bottom: 0;
+    color: #57984C;
+    text-align: center;
+    background-image: url('./img/standart.jpg');
+    
+}
+
+#tomatos-2{
+    margin-bottom: 0;
+    color: #57984C;
+    text-align: center;
+    background-image: url('./img/cintrag-orange.jpg');
+    
+}
+
+#tomatos-3{
+    margin-bottom: 0;
+    color: #57984C;
+    text-align: center;
+    background-image: url('./img/korolki-orange.jpg');
+    
+}
+
+#tomatos-4{
+    margin-bottom: 0;
+    color: #57984C;
+    text-align: center;
+    background-image: url('./img/Pup-orange.jpg');
+   
+}
+
+#tomatos-5{
+    margin-bottom: 0;
+    color: #57984C;
+    text-align: center;
+    background-image: url('./img/Tomaswil-Orange.jpg');
+    
+}
+
+.tovar-tomato div{
+    margin-top: 78%;
+    align-items: end;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Третья страница*/
+
+.header-tomato-one{
+    padding-top: 20px;
+    width: 100%;
+    height: 122px;
+    background-color: white;
+}
+
+.Logo-Tomato-One{
+    width: 166px;
+    height: 83px;
+    
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    background-color: white;
+    
+}
+
+.menu-tomato-one{
+    width: 499px;
+height: 80px;
+    margin-top: 15px;
+}
+
+.menu-nav-tomato-one{
+    color: #324950;
+   margin-top: 40px; 
+   display: flex;
+   flex-direction:row;
+   list-style: none;
+    padding: 0; 
+    }
+
+    .menu-nav-tomato-one a{
+        color: #324950;
+        text-decoration: none;
+    margin-right: 5px;    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    
+    }
+
+    .search-tomato-one{
+        width: 350px;
+    height: 29px;
+    border-bottom: solid 1px black;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+        
+        
+    }
+    .search-tomato-one input{
+        background: transparent;
+        border: 0;
+        outline: none;
+        font-weight: 500;
+        font-size: 16px;
+        
+       
+    }
+
+    .main-tomato-one{
+        display: flex;
+        justify-content: space-around;
+        background: #F7F7F7;
+        background-repeat: no-repeat;
+    }
+
+    .main-tomato-one-first h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 142.7%;
+    }
+
+    .main-tomato-one-first{
+    padding-left: 200px;
+    }
+
+    .main-tomato-one-second{
+        padding-right: 200px;
+    }
+
+    .return-all-tomatos{
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    margin-bottom: 1rem;
+    }
+
+    .return-all-tomatos img{
+        width: 25px;
+        height: 10px;
+    }
+
+    .main-tomato-one-first a{
+        text-decoration: none;
+    }
+
+    .return-all-tomatos p{
+        
+        font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+line-height: 162.7%;
+/* identical to box height, or 23px */
+
+
+/* Buttons */
+
+color: #57984C;
+
+    }
+
+    strong{
+        color: #57984c;
+    }
+
+    
+
+    .Very-very{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 142.7%;
+    color: #CF2333;
+    }
+
+    .spisok1 p{
+        width: 183px;
+        padding-bottom: 12px;
+        border-bottom: #57984c 2px solid;
+    }
+
+    .spisok1 h6{
+        font-size: 1rem;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 162.7%;
+    }
+
+    .spisok2 p{
+        width: 183px;
+    padding-bottom: 12px;
+    border-bottom: #57984c 2px solid;
+    }
+
+    .spisok2 ul{
+        padding-left: 20px;
+        color: #57984c;
+    }
+
+    .spisok2 span{
+        color: #000;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 200%;
+    }
+
+    .spisok3 p{
+        width: 183px;
+    padding-bottom: 12px;
+    border-bottom: #57984c 2px solid;
+    }
+
+    .spisok3 ul{
+        padding-left: 20px;
+        color: #57984c;
+    }
+
+    .spisok3 span{
+        color: #000;
+        font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+    }
+
+    .img-tomato{
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    .tomato-pdf{
+        text-align: right;
+    }
+
+    .tomato-pdf button{
+        margin: 35px 0;
+        border-color: #57984c;
+        width: 18em;
+        height: 55px;
+        color: #57984c;
+        padding: 11px;
+        border-radius: 60px;
+        box-sizing: border-box;
+        background-color: #ffffff00;
+    }
+
+    .tomato-pdf img{
+        vertical-align: middle;
+    border-style: none;
+    }
+
+    .spisok4 p{
+        width: 183px;
+    padding-bottom: 12px;
+    border-bottom: #57984c 2px solid;
+    }
+
+    .spisok4 ul{
+        padding-left: 20px;
+        color: #57984c;
+    }
+
+    .spisok4 span{
+        color: #000;
+        font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 200%;
+    }
+
+        .spisok5 p{
+        width: 183px;
+        padding-bottom: 12px;
+        border-bottom: #57984c 2px solid;
+        }
+
+        .spisok5 span{
+            font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+    line-height: 200%;
+        }
+   
+        .footer-tomato-one{
+        width: 100%;
+        height: 127px;
+        background-color: #324950;
+        }
+        
+        .footer-first{
+            padding: 27px 0 10px 0;
+            background-color: #2D3F45;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        #menu-footer{
+            text-transform: uppercase;
+            cursor: pointer;
+            list-style: none;
+            
+            gap: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        #menu-footer a{
+            color: #e4e4e4;
+            text-decoration: none;
+        }
+        
+        .footer-second{
+            padding: 18px 0 13px 0;
+            background-color: #324950;
+            text-align: center;
+            color: #B9B9B9;
+        }
+
+
+
+
+  
+
+
+
+

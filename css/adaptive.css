@@ -1,0 +1,430 @@
+@media (max-width: 768px){
+    *{
+        overflow-x: hidden;
+    }
+    .menu_flex{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo_placeholder{
+        height: 264px;
+        overflow-y: hidden;
+    }
+
+    .logo{
+        background-repeat: no-repeat;
+    }
+
+    .search-1{
+        margin-left: 18px;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .menu_content{
+        margin-top: 100px;
+    }
+
+    .product{
+        display: none;
+    }
+
+    .vision{
+        flex-direction: column;
+    }
+
+    .vision2{
+        flex-direction: column-reverse;
+    }
+
+    .vision-first{
+        width: 80%;
+    }
+
+    .vision-first p{
+        width: auto;
+    }
+
+    .image-vision{
+        width: 25.75em;
+    height: auto;
+    }
+
+    .vision-second{
+        width: 80%;
+    }
+
+    .vision-second p{
+        width: auto;
+    }
+
+    .image-mision{
+        width: 25.75em;
+    height: auto;
+    }
+
+    .main-activ-first{
+        flex-direction: column;
+    }
+
+    .image-sonyachsd{
+        padding-left: 10px;
+    }
+
+    .figure-3{
+        margin: 0 auto;
+    }
+
+    #menu-footer{
+        flex-direction: column;
+    }    
+
+    .footer-first{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-nav{
+        display: none;
+    }
+
+    .logo img{
+        width: 150px;
+        height: 90px;
+    }
+
+    .logo{
+        height: 157px;
+    }
+
+    .menu{
+        height: 40px;
+        margin-top: 0px;
+
+    }
+
+    .search{
+        width: 200px;
+        height: 20px;
+        
+    }
+
+    .search img{
+        padding-left: 0;
+    }
+
+    .header{
+        padding-bottom: 20px;
+        height: 180px;
+    }
+
+    .content-anketa{
+        flex-direction: column;
+        height: 1441px;
+    }
+
+    .left-content{
+        height: 715px;
+    }
+
+    .right-content{
+        margin-left: 0;
+    }
+
+    .image7{
+        height: 294px;
+    }
+
+    .content{
+        height: 1669px;
+    }
+
+    .left-content input{
+        width: 420px;
+    }
+
+    .right-content select{
+        width: 423px;
+    }
+
+    .right-content input{
+        width: 420px;
+    }
+
+    .right-content textarea{
+        width: 420px;
+    }
+
+    footer{
+        height: 474px;
+    }
+    
+    .nav-tomatik{
+        flex-direction: column;
+        align-items: center;
+            height: 197px;
+    }
+
+    .menu-nav-tomato-all{
+        display: none;
+    }
+
+    .logo img{
+        width: 150px;
+        height: 90px;
+    }
+
+    .logo{
+        height: 157px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .menu-tomato{
+        height: 40px;
+        margin-top: 0px;
+
+    }
+
+    .search-tomato-all{
+        width: 200px;
+        height: 25px;
+        margin-left: 0px;
+
+    }
+
+    .search img{
+        padding-left: 0;
+    }
+
+    .header{
+        padding-bottom: 0px;
+        height: 199px;
+        background-color: white;
+    }
+
+    .tomatoall-main img{
+        width: 393px;
+        height: 186px;
+    }
+
+    .main-tomato-all{
+        padding: 0;
+    }
+
+    .tomato-sort{
+        flex-direction: column;
+        height: 1070px; 
+    }
+
+    .main-tomato-all h1{
+        font-size: 2rem;
+    }
+
+    .tovar-tomato{
+        column-gap: 0px;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    .p-tomato-all-fitst{
+        padding: 0px 10px;
+    }
+
+    .text-border{
+        margin: 0px 10px;
+    }
+
+    .text-border-second{
+        margin: 0px 10px;
+    }
+
+    .tomato-burger{
+        margin-right: 350px;
+    }
+
+    .main-tomato-one{
+        flex-direction: column;
+    }
+
+    .tomato-one-nav{
+        height: 160px;
+    }
+
+    .Logo-Tomato-One{
+        width: 217px;
+        height: 350px;
+    }
+
+    .search-tomato-one{
+        width: 221px;
+        height: 22px;
+        margin-left: 150px;
+    }
+
+    .tomato-pdf button{
+        height: 62px;
+    }
+
+    .tomato-pdf{
+        text-align: center;
+    }
+
+    .header-tomato-one{
+        height: 229px;
+    }
+
+    .main-tomato-one-first{
+        padding-left: 0px;
+    }
+
+    .spisok1 h6{
+        padding-left: 20px;
+    }
+
+    .main-tomato-one-first h1{
+        font-size: 34px;
+    }
+    .Very-very{
+        font-size: 25px;
+    }
+
+    .menu-nav-tomato-one{
+        display: none;
+    }
+    .img-tomato {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .main-tomato-one-second {
+        padding-right: 0;
+    }
+
+    .footer-tomato-one{
+        height: 501px;
+    }
+
+    .spisok5{
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1180px){
+    .vision{
+        padding-left: 20px;
+    }
+    .vision-first{
+        padding-bottom: 50px;
+    }
+    .vision-second{
+        padding-right: 20px;
+    }
+    .vision-second p{
+        width: 272px;
+        height: auto;
+    }
+
+    .right-content{
+        width: 500px;
+
+    }
+
+    .content-anketa{
+        padding-left: 20px;
+    }
+
+    .right-content select{
+        width: 500px;
+    }
+
+    .right-content input{
+        width: 494px;
+    }
+
+    .right-content textarea{
+        width: 494px;
+    }
+
+    .main-tomato-all{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .tomato-sort h5{
+        margin-bottom: 0px;
+    }
+
+    .tomato-sort{
+        height: 495px;
+    }
+
+    .tovar-tomato figure{
+        width: 345px;
+        height: 304px;
+    }
+
+    #menu-footer{
+        gap: 10px;
+    }
+
+    .footer-first{
+        align-items: center;
+    }
+    .tomatoall-main img{
+        width: 820px;
+        height: 205px;
+    }
+
+    .main-tomato-one-second{
+        padding-right: 0;
+    }
+
+    .tomato-pdf{
+        text-align: center;
+    }
+
+    .img-tomato{
+        width: 239px;
+        margin-top: 82px;
+    }
+
+    .spisok4{
+        margin-top: 32px;
+    }
+
+    .ptext4{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .main-tomato-one-first h1{
+        font-size: 44px;
+    }
+
+    .main-tomato-one-first{
+        padding-left: 0px;
+    }
+
+    .vector1, .vector7{
+        display: none;
+    }
+
+    .main-activ-first{
+        flex-direction: column;
+    }
+}
