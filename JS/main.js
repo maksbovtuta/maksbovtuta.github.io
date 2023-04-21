@@ -44,8 +44,9 @@ var app = new Vue({
         product: [],
         btnVisible: false
     },
-    created: function() {
+    mounted: function() {
         this.getProduct();
+        this.checkInCart()
     },
     methods: {
         getProduct: function() {
@@ -70,8 +71,12 @@ var app = new Vue({
             }
         },
         checkInCart:function(){
-            if(this.product && this.product.id && window.localStorage.getItem('cart').split(',').indexOf(String(this.product.id))!=-1) this.btnVisible=1;
-        } 
+            // console.log(window.localStorage.getItem('cart').split(), String(this.product.id),
+            // window.localStorage.getItem('cart').split(',').indexOf(String(this.product.id)));
+            if(this.product && this.product.id && window.localStorage.getItem('cart')
+            .split(',').indexOf(String(this.product.id))!=-1) this.btnVisible=true;
+        
+        }
        
     }
 
