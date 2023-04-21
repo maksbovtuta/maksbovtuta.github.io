@@ -1,5 +1,5 @@
 var app = new Vue({
-    el:".tovar-tomato, .main-tomato-one",
+    el:".tovar-tomato, .main-tomato-one, .korzina",
     data:{
         products:
         [{
@@ -42,11 +42,15 @@ var app = new Vue({
             desc:"Full desc"
         }],
         product: [],
-        btnVisible: false
+        btnVisible: false,
+        cart: [],
+        contactFields: [],
+        order: 0,
     },
     mounted: function() {
         this.getProduct();
-        this.checkInCart()
+        this.checkInCart();
+        this.getCart();
     },
     methods: {
         getProduct: function() {
@@ -76,7 +80,41 @@ var app = new Vue({
             if(this.product && this.product.id && window.localStorage.getItem('cart')
             .split(',').indexOf(String(this.product.id))!=-1) this.btnVisible=true;
         
-        }
+        },
+        getCart() {
+          if (window.localStorage.getItem("cart") != null) {
+            if (this.products != null && this.products.length > 0) {
+              for (let i in this.products) {
+                if (
+                  this.products[i] != null &&
+                  this.products[i].id != null &&
+                  window.localStorage
+                    .getItem("cart")
+                    .split(",")
+                    .indexOf(String(this.products[i].id)) != -1
+                )
+                  this.cart.push(this.products[i]);
+              }
+            }
+          }
+        },
+        removeFromCart(id) {
+          let cart = [];
+          if (window.localStorage.getItem("cart") != null) {
+            cart = window.localStorage.getItem("cart").split(",");
+          }
+          if (cart.indexOf(String(id)) != -1) {
+            cart.splice(cart.indexOf(String(id)), 1);
+            window.localStorage.setItem("cart", cart.join(","));
+            this.cart = [];
+            this.getCart();
+          }
+        },
+        makeOrder() {
+          this.cart = [];
+          window.localStorage.setItem("cart", "");
+          this.order = 1;
+        },
        
     }
 

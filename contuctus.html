@@ -45,29 +45,49 @@
         </div>        
     </div>
         <img class="image7" src="images/image 7.jpg">
+
+    <div class="korzina">
+        <table v-if="cart!=''" class="TableTovatov">
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Delete</th>
+            </tr>
+            <tr v-for="c in cart">
+                <td><img class="ImgTableContact"
+                        :src="'./css/img/'+c.img" alt=""></td>
+                <td>{{c.short_text}}</td>
+                <td>{{c.desc}}</td>
+                <td><a href="#" @click.prevent="removeFromCart(c.id)">X</a></td>
+            </tr>
+        </table>
+    </div>
+
         <div class="content">
             <h2>Contact us</h2>
             <img class="xrest-content" src="images/xrest.png">  
                 <form class="content-anketa">
                     <div class="left-content">
                         <label>Name *</label><br>
-                        <input type="text"><br>
+                        <input required type="text"
+                        v-model="contactFields.name"><br>
                         <label>Company Name</label><br>
-                        <input type="text"><br>
-                        <label>Position</label><br>
-                        <input type="text"><br>
+                        <input v-model="contactFields.Company" type="text"><br>
+                        <label >Position</label><br>
+                        <input v-model="contactFields.Position" type="text"><br>
                         <label>City</label><br>
-                        <input type="text"><br>
+                        <input v-model="contactFields.City" type="text"><br>
                         <label>Country</label><br>
-                        <input type="text"><br>
+                        <input v-model="contactFields.Country" type="text"><br>
                         <label>Telephone</label><br>
-                        <input type="tel"><br>
+                        <input v-model="contactFields.Telephone" type="tel"><br>
                         <label>Email *</label><br>
-                        <input type="email"><br>
+                        <input required v-model="contactFields.Email" type="email"><br>
                     </div>
                     <div class="right-content">
                         <label>You are a</label><br>
-                        <select>
+                        <select  v-model="contactFields.select">
                             <option value="value1">seed producer</option>
                             <option value="value2">2</option>
                             <option value="value3">3</option>
@@ -123,6 +143,7 @@
             </div>
         </footer> 
     
-    
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="JS/main.js"></script> 
 </body>
 </html>
