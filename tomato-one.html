@@ -46,7 +46,7 @@
         </div>        
     </div>
     <div class="main-tomato-one" style="background-image: url(image/tomatooneunion.png); background-repeat: no-repeat; width: 100%;">
-        <div class="main-tomato-one-first">
+        <div class="main-tomato-one-first" >
         <a href="index2.html">
             <div class="return-all-tomatos">
                 <img src="image/Arrow 1.png">
@@ -54,8 +54,8 @@
             </div>
         </a>
         <h1>
-            TAG 1002 (TAG 809) <br>
-            <strong>Tomato Determinate <br>Red Standard Round</strong>
+            {{ product.title }} <br>
+            <strong>{{ product.short_text }}</strong>
         </h1>
         <img src="image/xrest.png">
         <div class="Very-very">
@@ -84,20 +84,25 @@
                 <ul>
                     <li><span>Long shelf life on plant and post harvest.</span></li>
                     <li><span>Nice shiny attractive deep red color.</span></li>
-                    <li><span>Average fruit size: 140 – 160 grams.</span></li>
+                    <li><span>Average fruit size: 140  160 grams.</span></li>
                 </ul>
             
             </div>
         </div>
         <div class="main-tomato-one-second">
-        <img class="img-tomato" src="image/tovari/К.jpg">
+        <img class="img-tomato" :src="'./css/img/'+product.img">
 
             <div class="tomato-pdf">
-                <button>
+                <button v-if="!btnVisible" @click="addToCart(product.id)" >
                     <img src="image/ico_pdf.png">
-                    Download PDF
+                    Add to cart
+                </button>
+                <button v-if="btnVisible" >
+                    <img src="image/ico_pdf.png">
+                    <a href="contuctus.html">Go to cart</a>
                 </button>
             </div>
+            
 
         <div class="spisok4">
             <p><strong>Cycle</strong></p>
@@ -144,7 +149,8 @@
     
     
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="JS/main.js"></script> 
     
 </body>
 </html>

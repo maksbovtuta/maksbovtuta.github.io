@@ -83,11 +83,11 @@
 
 <div class="tovar-tomato">
 
-    <figure v-for="product in products" v-bind:id="product.id">
-    <a v-bind:href="product.href">
+    <figure v-for="p in products" v-bind:id="p.id">
+    <a :href="'tomato-one.html#'+p.id">
         <div>
-            <p class="p-tovar1-1">{{ product.title }}</p>
-            <p class="p-tovar1-2">{{ product.short_text }}</p>
+            <p class="p-tovar1-1">{{ p.title }}</p>
+            <p class="p-tovar1-2">{{ p.short_text }}</p>
         </div>
     </a>
     </figure>
