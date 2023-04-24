@@ -22,6 +22,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+           navigator.serviceWorker
+           .register('sw.js')  
+           .then(function() {
+               console.log('Service worker registered!');
+           });
+       }
+
+    </script>
 </head>
 <body>
     <div class="bg-ra" style="background-image: url('image/bg.png');width: 100%; background-size: cover;">
